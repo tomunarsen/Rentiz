@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="" >
+    <meta name="description" content="">
+
+    <title>Rentiz | Perfect way to buy and sell a home</title>
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="css/style.min.css">
+
+    <script defer src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script defer src="./js/script.min.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+
+        <header class="header">
+            <div class="header__container">
+                <div class="header__body">
+                    <div class="header__logo">
+                        <a href="#"><img src="img/logo.svg" alt="LOGO"></a>
+                    </div>
+                    <div class="header__nav-bar">
+                        <ul class="header__list">
+                            <li class="header__item"><a href="#">home</a></li>
+                            <li class="header__item"><a href="#">About us </a></li>
+                            <li class="header__item"><a href="#">Buying</a></li>
+                            <li class="header__item"><a href="#">Renting</a></li>
+                            <li class="header__item"><a href="#">Selling</a></li>
+                            <li class="header__item"><a href="#">Contact us</a></li>
+                        </ul>
+                    </div>
+                    <div class="header__btns">
+                        <button class="login header__btn">Login</button>
+                        <button class="register header__btn">Sign Up</button>
+                    </div>
+                    <div class="header__icon-menu">
+                        <a href="#" class="icon-menu"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="login-form">
+                <form  method="post">
+                    <div class="login-form__body">
+                        <div class="login-form__title">
+                            <h3 id="form-title" class="title">Login</h3>
+                            <span id="login-form-close">✖</span>
+                        </div>
+                        <div class="login-form__inputs">
+                            <label for="name">
+                                <h4 class="text">Name</h4>
+                                <input id="name" type="text" class="login-form__input">
+                            </label>
+                            <label for="email">
+                                <h4 class="text">email address</h4>
+                                <input id="email" type="email" class="login-form__input">
+                            </label>
+                            <label for="password">
+                                <h4 class="text">password</h4>
+                                <input id="password" type="password" class="login-form__input">
+                            </label>
+                            <label for="passwordRepeat">
+                                <h4 class="text">password repeat</h4>
+                                <input id="passwordRepeat" type="password" class="login-form__input">
+                            </label>
+                        </div>
+                        <div class="login-form__buttons">
+                            <button type="button" class="login-form__btn">Submit</button>
+                        </div>
+                        <div class="login-form__text">
+                            <p>You have not account ? <button type="button" class="changeForm">Create</button> .</p>
+                        </div>   
+                    </div>
+                </form>
+            </div>
+        </header>
+
+        <main class="main">
+
+            <section class="hero">
+                <div class="hero__container">
+                    <div class="hero__body">
+                        <div class="hero__content">
+                            <h1 class="hero__title title">
+                                Perfect way to buy and sell a home
+                            </h1>   
+                            <p class="hero__text text">Diam vitae, nec mattis lectus quam pretium amet facilisis. Urna, massa aliqua dui pellentesque. Ac, gravida in eget non amet eget purus non.</p>
+
+                            <div class="hero__filter filter">
+                                <div class="hero__block filter-block">
+                                    <div class="filter-block__content">
+                                        <div class="filter-block__type">
+                                            <span>Purpose</span>
+                                        </div>
+                                        <div class="filter-block__actions">
+                                            <div class="filter-block__value">buy</div>
+                                        </div>
+                                    </div>
+                                    <div class="filter-block__drop-down">
+                                        <div class="filter-block__item">sell</div>
+                                        <div class="filter-block__item">buy</div>
+                                    </div>
+                                </div>
+                                <div class="hero__block filter-block">
+                                    <div class="filter-block__content">
+                                        <div class="filter-block__type">
+                                            <span>Location</span>
+                                        </div>
+                                        <div class="filter-block__actions">
+                                            <div class="filter-block__value">Toronto, Canada</div>
+                                        </div>
+                                    </div>
+                                    <div class="filter-block__drop-down">
+                                        <div class="filter-block__item">Toronto, Canada</div>
+                                        <div class="filter-block__item">Kyiv, Ukraine</div>
+                                        <div class="filter-block__item">Warsaw, Poland</div>
+                                    </div>
+                                </div>
+                                <div class="hero__block filter-block">
+                                    <div class="filter-block__content">
+                                        <div class="filter-block__type">
+                                            <span>Type</span>
+                                        </div>
+                                        <div class="filter-block__actions">
+                                            <div class="filter-block__value">Industrial home</div>
+                                        </div>
+                                    </div>
+                                    <div class="filter-block__drop-down">
+                                        <div class="filter-block__item">Industrial home</div>
+                                        <div class="filter-block__item">Old home</div>
+                                    </div>
+                                </div>
+                                <div class="hero__btn">
+                                    <button>Search</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hero__img">
+                            <img src="img/hero/1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="investors">
+                <div class="investors__container">
+                    <div class="investors__body">
+                        <div class="investors__title">
+                            <h2>Featured In</h2>
+                        </div>
+                        <div class="investors__columns">
+                            <div class="investors__column">
+                                <img src="img/investors/vin-tage.png" alt="">
+                            </div>  
+                            <div class="investors__column">
+                                <img src="img/investors/violet.png" alt="">
+                            </div> 
+                            <div class="investors__column">
+                                <img src="img/investors/ceathes.png" alt="">
+                            </div> 
+                            <div class="investors__column">
+                                <img src="img/investors/creater-fav.png" alt="">
+                            </div> 
+                            <div class="investors__column">
+                                <img src="img/investors/lavender-agency.png" alt="">
+                            </div>   
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="popular-residence">
+                <div class="popular-residence__container">
+                    <div class="popular-residence__body">
+                        <div class="popular-residence__title title">
+                            <h2>Popular Residence</h2>
+                        </div>
+                        <div class="popular-residence__swiper swiper">
+                            <!-- Additional required wrapper -->
+                            <div class="swiper-wrapper">
+                            <!-- Slides -->
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <div class="card__img">
+                                            <img src="img/popular-residence/produckt-1.jpg" alt="">
+                                        </div>
+                                        <div class="card__content">
+                                            <h3>Aliva Priva Jalvin</h3>
+                                            <p>1087 Pin Oak Drive, Clinton, USA</p>
+                                            <div class="card__parametrs">
+                                                <span>4 beds</span>
+                                                <span>2 bath</span>
+                                                <span>1203 Sqft.</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <div class="card__img">
+                                            <img src="img/popular-residence/produckt-2.jpg" alt="">
+                                        </div>
+                                        <div class="card__content">
+                                            <h3>Hard line orchar</h3>
+                                            <p>1087 Pin Oak Drive, Clinton, USA</p>
+                                            <div class="card__parametrs">
+                                                <span>4 beds</span>
+                                                <span>2 bath</span>
+                                                <span>1203 Sqft.</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <div class="card__img">
+                                            <img src="img/popular-residence/produckt-3.jpg" alt="">
+                                        </div>
+                                        <div class="card__content">
+                                            <h3>Allpine lenevote</h3>
+                                            <p>1087 Pin Oak Drive, Clinton, USA</p>
+                                            <div class="card__parametrs">
+                                                <span>4 beds</span>
+                                                <span>2 bath</span>
+                                                <span>1203 Sqft.</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <!-- If we need navigation buttons -->
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                        </div>
+                        <div class="popular-residence__button">
+                            <button class="btn">View all properties</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="choose-us">
+                <div class="choose-us__container">
+                    <div class="choose-us__body">
+                        <div class="choose-us__title title">
+                            <h2>Why to choose us</h2>
+                        </div>
+                        <div class="choose-us__columns">
+                            <div class="choose-us__column">
+                                <div class="choose-us__img">
+                                    <img src="img/choose/loupe.png" alt="">
+                                </div>
+                                <div class="choose-us__content">
+                                    <h3>Easy to find</h3>
+                                    <p>Urna, massa aliqua dui pellentesque. Ac, gravida in. Diam vitae, nec mattis lectus quam pretium amet facilisis.</p>
+                                </div>
+                            </div>
+                            <div class="choose-us__column">
+                                <div class="choose-us__img">
+                                    <img src="img/choose/tag.png" alt="">
+                                </div>
+                                <div class="choose-us__content">
+                                    <h3>Affordable Prices</h3>
+                                    <p>Urna, massa aliqua dui pellentesque. Ac, gravida in. Diam vitae, nec mattis lectus quam pretium amet facilisis.</p>
+                                </div>
+                            </div>
+                            <div class="choose-us__column">
+                                <div class="choose-us__img">
+                                    <img src="img/choose/quick.png" alt="">
+                                </div>
+                                <div class="choose-us__content">
+                                    <h3>Quickly Process</h3>
+                                    <p>Urna, massa aliqua dui pellentesque. Ac, gravida in. Diam vitae, nec mattis lectus quam pretium amet facilisis.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="testimonials">
+                <div class="testimonials__container">
+                    <div class="testimonials__body">
+                        <div class="testimonials__swiper swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="comment">
+                                        <div class="comment__img">
+                                            <img src="img/icons/“.png" alt="">
+                                        </div>
+                                        <div class="comment__content">
+                                            <p>Massa semper non rutrum orci facilisi sit. Lectus porta quam a fringilla eget viverra sem. Vulputate massa hendrerit turpis gravida tempor, porttitor.</p>
+                                        </div>
+                                        <div class="comment__author-slide">
+                                            <div class="comment__author">
+                                                <span>Elena Pravo</span>
+                                                <span>Ceo, Upstate</span>
+                                            </div>
+                                            <div class="comment__slide">                    
+                                                <div class="comment__prev">
+                                                    <img src="img/testimonials/arrow-right.svg" alt="">
+                                                </div>
+                                                <div class="comment__next">
+                                                    <img src="./img/testimonials/arrow-left.svg" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="comment">
+                                        <div class="comment__img">
+                                            <img src="img/icons/“.png" alt="">
+                                        </div>
+                                        <div class="comment__content">
+                                            <p>Massa semper non rutrum orci facilisi sit. Lectus porta quam a fringilla eget viverra sem. Vulputate massa hendrerit turpis gravida tempor, porttitor.</p>
+                                        </div>
+                                        <div class="comment__author-slide">
+                                            <div class="comment__author">
+                                                <span>Elena Pravo</span>
+                                                <span>Ceo, Upstate</span>
+                                            </div>
+                                            <div class="comment__slide">                    
+                                                <div class="comment__prev">
+                                                    <img src="img/testimonials/arrow-right.svg" alt="">
+                                                </div>
+                                                <div class="comment__next">
+                                                    <img src="./img/testimonials/arrow-left.svg" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="help-people">
+                <div class="help-people__container">
+                    <div class="help-people__body">
+                        <div class="help-people__imgs">
+                            <img src="./img/help-people/2.png" alt="">
+                            <img src="./img/help-people/1.png" alt="">
+                        </div>
+                        <div class="help-people__content">
+                            <h3 class="help-people__title title">We help people to find homes</h3>
+                            <p class="help-people__text text">Mauris orci donec blandit maecenas. Orci lorem purus porttitor massa consectetur. Neque, vestibulum sed varius magna et at. Eu, adipiscing morbi augue justo. Nibh laoreet volutpat quis velit. Blandit aliquam donec sed morbi congue eget lorem viverra porta id lobortis.</p>
+                            <button class="help-people__btn btn">Get in touch</button>
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
+            <section class="simply-begin">
+                <div class="simply-begin__container">
+                    <div class="simply-begin__body">
+                        <div class="simply-begin__title title">
+                            <h3>Let’s simply begin with rentiz.</h3>
+                        </div>
+                        <div class="simply-begin__content">
+                            <p class="simply-begin__text text">Neque, vestibulum sed varius magna et at. Eu, adipiscing morbi augue justo. Nibh laoreet volutpat quis velit. Blandit aliquam donec sed morbi congue eget lorem viverra porta id lobortis.</p>
+                            <button class="simply-begin__btn btn">Get Started</button>
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="footer__container">
+                <div class="footer__body">
+                    <div class="footer__content">
+                        <div class="footer__description">
+                            <img src="img/logo.svg" alt="">
+                            <p>Neque, vestibulum sed varius magna et at. Eu, adipiscing morbi augue.</p>
+                            <div class="footer__social-icon">
+                                <img src="img/icons/facebook.svg" alt="">
+                                <img src="img/icons/instagram.svg" alt="">
+                                <img src="img/icons/Twitter.svg" alt="">
+                                <img src="img/icons/youtube.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="footer__nav">
+                            <ul class="footer__list">
+                                <li class="footer__item"><a href="">Project</a></li>
+                                <li class="footer__item"><a href="">Houses</a></li>
+                                <li class="footer__item"><a href="">Rooms</a></li>
+                                <li class="footer__item"><a href="">Flats</a></li>
+                                <li class="footer__item"><a href="">Appartments</a></li>
+                            </ul>
+                            <ul class="footer__list">
+                                <li class="footer__item"><a href="">Company</a></li>
+                                <li class="footer__item"><a href="">How we work ?</a></li>
+                                <li class="footer__item"><a href="">Capital</a></li>
+                                <li class="footer__item"><a href="">Security</a></li>
+                            </ul>
+                            <ul class="footer__list">
+                                <li class="footer__item"><a href="">Movement</a></li>
+                                <li class="footer__item"><a href="">Who are we</a></li>
+                                <li class="footer__item"><a href="">Support us</a></li>
+                            </ul>
+                            <ul class="footer__list">
+                                <li class="footer__item"><a href="">Help</a></li>
+                                <li class="footer__item"><a href="">Privacy</a></li>
+                                <li class="footer__item"><a href="">Condition</a></li>
+                                <li class="footer__item"><a href="">Blog</a></li>
+                                <li class="footer__item"><a href="">FAQs</a></li>
+                            </ul>
+                        </div>  
+                    </div>
+                    <hr>
+                    <div class="footer__copy-right">
+                        <p>Copyright ©TemplatesJungle. 2022. All right reserved</p>
+                        <p>Design by: TemplatesJungle</p>
+                    </div>      
+                </div>
+            </div>
+        </footer>
+
+    </div>
+</body>
+</html>
